@@ -1,0 +1,46 @@
+@charset "UTF-8"
+html{
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+}
+/** typografias**/
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+a, header p{
+    font-size: 18px;
+ color: #E5E7EB;
+}
+h2{font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+blockquote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+/**color fondo**/
+header, footer{
+    background-color: #1F2937;
+}
+#container4{background-color: #E5E7EB;
+}
+button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 10%;
+}
