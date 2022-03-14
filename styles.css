@@ -23,6 +23,13 @@ a{
     width: 100px;
 }
 
+button{
+    padding: 0.5em;
+    border-radius: .5em;
+    background-color: #3882F6;
+    border: solid;
+}
+
 /** typografias**/
 h1{
     font-size: 48px;
@@ -55,4 +62,16 @@ ul{
 }
 li.logo{
     margin-right: auto;
+}
+/** hero**/
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#herotext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 50%;
 }
