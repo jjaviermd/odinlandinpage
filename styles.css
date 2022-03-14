@@ -6,7 +6,13 @@ html{
 *::before{
     box-sizing: inherit;
 }
-
+li{
+    list-style-type: none;
+    display: block;
+    margin: 0 1em;
+}
+#logo{
+    margin-right: auto;
 }
 /** typografias**/
 h1{
@@ -43,4 +49,39 @@ button{
 
 #logo{
     width: 10%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0;
+}
+#container0{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#container1a{
+display: flex;
+flex-direction: column;
+width: 400px;
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex: 0 0 50%;
+    align-content: center;
+}
+
+#container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
