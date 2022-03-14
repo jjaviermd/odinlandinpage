@@ -1,19 +1,28 @@
 @charset "UTF-8"
+
 html{
     box-sizing: border-box;
 }
+
 *::after,
 *::before{
     box-sizing: inherit;
 }
 li{
     list-style-type: none;
+}
+a{
     display: block;
-    margin: 0 1em;
+    border: 1px solid;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    text-decoration: none;
 }
-#logo{
-    margin-right: auto;
+#logo {
+    width: 100px;
 }
+
 /** typografias**/
 h1{
     font-size: 48px;
@@ -39,49 +48,11 @@ blockquote{
 header, footer{
     background-color: #1F2937;
 }
-#container4{background-color: #E5E7EB;
-}
-button{
-    color: #F9FAF8;
-    background-color: #3882F6;
-    border-radius: 10px;
-}
-
-#logo{
-    width: 10%;
-}
-
+/** navbar**/
 ul{
     display: flex;
-    align-items: center;
-    padding: 0.5em;
-    margin: 0;
+    justify-content: center;
 }
-#container0{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-#container1a{
-display: flex;
-flex-direction: column;
-width: 400px;
-}
-
-#container1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    flex: 0 0 50%;
-    align-content: center;
-}
-
-#container3{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+li.logo{
+    margin-right: auto;
 }
