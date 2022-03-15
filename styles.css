@@ -66,12 +66,20 @@ li.logo{
 /** hero**/
 #hero{
     display: flex;
+    justify-content:space-around;
     align-items: center;
-    justify-content: center;
 }
 #herotext{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 0 1 50%;
+}
+
+#heroimage{
+    flex: 1 1 50%;
+}
+
+#hero button{
+    align-self: flex-start;
 }
