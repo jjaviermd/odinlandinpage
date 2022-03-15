@@ -68,6 +68,7 @@ li.logo{
     padding: 0 3em;
 }
 /** hero**/
+/**
 #hero{
     display: flex;
     gap: 20em;
@@ -75,16 +76,30 @@ li.logo{
     justify-content:space-around;
     align-items: center;
 }
-
+/**
 #herotext{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 0 1 50%;
 }
-
+**/
+#hero {
+    display: block;
+    position: relative;
+    padding-bottom: 5em;
+}
+#herotext{
+    display: block;
+    width: 40%;
+    padding-left: 6em;
+}
 #heroimage{
-    flex: 1 1 50%;
+    width: 400px;
+    position: absolute;
+    top: 1em;
+    right: 5em;
+    border-radius: 1em;
 }
 
 #hero button{
@@ -148,8 +163,13 @@ li.logo{
     right: 10em;
 }
 
-footer p{
+footer {
     display: block;
     padding: 1em 20em;
-    align-items: center;
+}
+
+footer p{
+    display: block;
+    position: relative;
+    left: 200px;
 }
