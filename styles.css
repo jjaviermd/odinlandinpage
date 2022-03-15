@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 html{
     box-sizing: border-box;
@@ -69,6 +69,7 @@ li.logo{
     justify-content:space-around;
     align-items: center;
 }
+
 #herotext{
     display: flex;
     flex-direction: column;
@@ -82,4 +83,21 @@ li.logo{
 
 #hero button{
     align-self: flex-start;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.prod{
+    border: 3px solid #3882F6;
+    border-radius: .5em;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
 }
