@@ -93,13 +93,15 @@ li.logo{
     gap: 10px;  
 }
 
-
+#info{
+    padding: 1em 5em 3em 5em;
+}
 
 
 #info h2{
-    
+    display: block;
     position: relative;
-
+    width:max-content;
     left: 10em;
 }
 .prod{
@@ -109,4 +111,14 @@ li.logo{
     display: flex;
     flex-direction: column;
     flex: auto;
+}
+
+#quote{
+    display: block;
+    padding: 2em 3em;
+}
+#quote .autor{
+    font-weight: bold;
+    position: absolute;
+    left: 90%;
 }
