@@ -90,8 +90,17 @@ li.logo{
     align-items: stretch;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 10px;  
+}
+
+
+
+
+#info h2{
     
+    position: relative;
+
+    left: 10em;
 }
 .prod{
     border: 3px solid #3882F6;
