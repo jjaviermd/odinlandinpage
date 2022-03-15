@@ -27,7 +27,7 @@ button{
     padding: 0.5em;
     border-radius: .5em;
     background-color: #3882F6;
-    border: solid;
+    border: solid white;
 }
 
 /** typografias**/
@@ -63,9 +63,15 @@ ul{
 li.logo{
     margin-right: auto;
 }
+
+#navbar{
+    padding: 0 3em;
+}
 /** hero**/
 #hero{
     display: flex;
+    gap: 20em;
+    padding: 3em 5em;
     justify-content:space-around;
     align-items: center;
 }
@@ -108,6 +114,7 @@ li.logo{
     border: 3px solid #3882F6;
     border-radius: .5em;
     width: 240px;
+    padding: .5em;
     display: flex;
     flex-direction: column;
     flex: auto;
@@ -116,9 +123,33 @@ li.logo{
 #quote{
     display: block;
     padding: 2em 3em;
+    background-color: #E5E7EB;
 }
 #quote .autor{
     font-weight: bold;
     position: absolute;
     left: 90%;
+}
+#accion{
+    padding: 2em 4em;
+    margin: 4em 8em;
+    background-color: #3882F6;
+    border-radius: 1em;
+    position: relative;
+}
+
+#accion button{
+    display: block;
+    padding: 0.5em 1em;
+    border: solid white;
+    border-radius: .5em;
+    position: absolute;
+    top: 5em;
+    right: 10em;
+}
+
+footer p{
+    display: block;
+    padding: 1em 20em;
+    align-items: center;
 }
